@@ -5,6 +5,9 @@ import View.PlaceView;
 import View.Position;
 import javafx.scene.layout.Pane;
 
+/**
+ * its a class for the places
+ */
 public class Place extends Shape{
 
     private PlaceView view;

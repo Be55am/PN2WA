@@ -1,31 +1,31 @@
 package Controller;
 
-import javafx.event.Event;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Button;
 
-import java.io.IOException;
-import java.security.PublicKey;
+import javafx.fxml.Initializable;
 
-public class Controller {
-    @FXML
-    Button placeButton=new Button(),transitionButton,arrowButton;
+import java.net.URL;
+
+import java.util.ResourceBundle;
+
+/**
+ * this class contains the listeners of the buttons in the main window like the arrow or the transition
+ *
+ */
+//todo the controller class need inst completed yet
+public class Controller implements Initializable{
 
     public Controller(){
-        FXMLLoader loader=new FXMLLoader(getClass().getResource("View\\sample.fxml"));
-        loader.setRoot(this);
-        loader.setController(this);
-     
 
-        placeButton.setOnMouseDragged(event -> {
-            System.out.println("dragging...");
-        });
+
+
     }
 
-    public void test(){
-        System.out.println("hifdfidjf");
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
     }
+
 
 
 }

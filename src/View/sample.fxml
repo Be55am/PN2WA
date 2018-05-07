@@ -38,7 +38,7 @@
             </MenuBar>
             <HBox spacing="20.0" style="-fx-background-color: #333333;" VBox.vgrow="NEVER">
                <children>
-                  <Button fx:id="placeButton" mnemonicParsing="false" onAction="#test" text="Place" />
+                  <Button fx:id="placeButton" mnemonicParsing="false" text="Place" />
                   <Button fx:id="transitionButton" mnemonicParsing="false" text="Transition" />
                   <Button fx:id="arrowButton" mnemonicParsing="false" text="Arrow" />
                </children>

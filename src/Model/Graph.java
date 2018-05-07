@@ -6,6 +6,9 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * the object graph contains lists of arrows and places and transitions
+ */
 public class Graph {
 
     ArrayList<Arrow> arrows=new ArrayList<Arrow>();

@@ -7,6 +7,10 @@ import javafx.scene.layout.Pane;
 
 import java.awt.*;
 
+/**
+ * this class contains the concept of the arrow which has also an object called arrowView
+ * it is the responsible for the view
+ */
 public class Arrow {
 
    private Shape startingShape,endingShape;

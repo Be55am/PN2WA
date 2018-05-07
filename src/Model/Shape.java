@@ -2,6 +2,9 @@ package Model;
 
 import View.Position;
 
+/**
+ * the mother class for the objects Place and Transition
+ */
 public class Shape {
     private Position position;
 
